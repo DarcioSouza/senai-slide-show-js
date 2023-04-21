@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Slide com JavaScript</h1>
+        </header>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="assets/au-land-001.webp" style="width:100%">
+                <div class="text">12 Apostles, Australia</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="assets/au-land-002.webp" style="width:100%">
+                <div class="text">Circular Quay, Sydney, Australia</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="assets/au-land-003.webp" style="width:100%">
+                <div class="text">kuranda - Village in the Rainforest, kuranda, Australia</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="assets/au-land-004.webp" style="width:100%">
+                <div class="text">Uluru & Kata Tjura National Park, Australia</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="assets/au-land-005.webp" style="width:100%">
+                <div class="text">Sydney Harbour Bridge, Sydney, Australia</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-left fa-2x1"></i><</a>
+            <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-right fa-2x1"></i>></a>
+
+            <div class="indicators">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/slideshow.js"></script>
+
+</body>
+
+</html>
